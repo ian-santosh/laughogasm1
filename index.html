@@ -1,57 +1,75 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Laugh-O-Gasm</title>
-    <link rel="stylesheet" href="style.css">
-    <script defer src="script.js"></script>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Laugh-O-Gasm — Spreading smiles across Odisha</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="images/logo.png">
 </head>
 <body>
-    <header class="hero">
-        <img src="images/logo.png" alt="Laugh-O-Gasm Logo" class="logo">
-        <h1 class="tagline">Spreading smiles across Odisha</h1>
-    </header>
+<header class="top">
+  <div class="container">
+    <img src="images/logo.png" alt="Laugh-O-Gasm Logo" class="logo">
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
 
-    <section class="about">
-        <h2>About Us</h2>
-        <p>Laughogasm is an emerging entertainment & talent management company based in Odisha, India.
-        We represent fresh voices in stand-up comedy, music, sportsainment, and digital content creation.
-        From live shows to viral content, Laughogasm curates experiences that blend humour, culture, and community.</p>
-    </section>
+<section id="hero" class="hero">
+  <div class="hero-inner container">
+    <img src="images/logo.png" alt="Laugh-O-Gasm Logo" class="hero-logo">
+    <h1 class="title">Laugh‑O‑Gasm</h1>
+    <p class="subtitle">Spreading smiles across Odisha</p>
+    <a class="cta" href="#contact">Book Talent / Contact Us</a>
+  </div>
+</section>
 
-    <section class="services">
-        <h2>Our Services</h2>
-        <div class="service-cards">
-            <div class="card">Stand-Up Comedy</div>
-            <div class="card">Music</div>
-            <div class="card">Sportsainment</div>
-            <div class="card">Digital Content Creation</div>
-        </div>
-    </section>
+<section id="about" class="section">
+  <div class="container">
+    <h2>About Us</h2>
+    <p class="lead">Laughogasm is an emerging entertainment &amp; talent management company based in Odisha, India. We represent fresh voices in stand-up comedy, music, sportsainment, and digital content creation. From live shows to viral content, Laughogasm curates experiences that blend humour, culture, and community.</p>
+  </div>
+</section>
 
-    <section class="gallery">
-        <h2>Gallery</h2>
-        <div class="gallery-grid">
-            <!-- Add images in images/gallery folder -->
-            <img src="images/gallery/sample1.jpg" alt="Event 1">
-            <img src="images/gallery/sample2.jpg" alt="Event 2">
-            <img src="images/gallery/sample3.jpg" alt="Event 3">
-        </div>
-    </section>
+<section id="services" class="section alt">
+  <div class="container">
+    <h2>Our Services</h2>
+    <div class="cards">
+      <div class="card"><h3>Stand‑Up Comedy</h3><p>Live shows & artist representation.</p></div>
+      <div class="card"><h3>Music</h3><p>Concerts & artist management.</p></div>
+      <div class="card"><h3>Sportsainment</h3><p>Events that mix sport & entertainment.</p></div>
+      <div class="card"><h3>Digital Content</h3><p>Viral campaigns & content creation.</p></div>
+    </div>
+  </div>
+</section>
 
-    <section class="contact">
-        <h2>Contact Us</h2>
-        <p>Email: <a href="mailto:laughogasm@gmail.com">laughogasm@gmail.com</a></p>
-        <p>Phone: +91 89840 75428</p>
-        <p>
-            <a href="https://www.linkedin.com/company/108051564/admin/dashboard/">LinkedIn</a> |
-            <a href="https://www.instagram.com/laughogasm?utm_source=ig_web_button_share_sheet&igsh=Nm0xZnV0MWVpZmM=">Instagram</a>
-        </p>
-    </section>
+<section id="gallery" class="section">
+  <div class="container">
+    <h2>Gallery</h2>
+    <p class="muted">Event photos — upload images to <code>/images/gallery/</code> and name them <code>gallery1.jpg</code>, <code>gallery2.jpg</code>... or add a <code>list.txt</code> listing filenames (one per line).</p>
+    <div id="galleryGrid" class="gallery-grid" aria-live="polite"></div>
+  </div>
+</section>
 
-    <footer>
-        <p>&copy; 2025 Laugh-O-Gasm. All rights reserved.</p>
-    </footer>
+<section id="contact" class="section alt">
+  <div class="container">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:laughogasm@gmail.com">laughogasm@gmail.com</a> • Phone: +91 89840 75428</p>
+    <p class="social"><a href="https://www.linkedin.com/company/108051564/">LinkedIn</a> • <a href="https://www.instagram.com/laughogasm">Instagram</a></p>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <small>© 2025 Laugh‑O‑Gasm. All rights reserved.</small>
+  </div>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
